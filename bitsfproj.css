@@ -1,0 +1,133 @@
+
+body{
+  font-family: arial;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .hero{
+    height: 100vh;
+    width: auto;
+    background: radial-gradient(#9C6DB0, #233A4E ); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .second{
+    height: 100vh;
+    width: auto;
+    background-color: #b5b6b6;
+  }
+    
+  .aboutme{
+    text-align: left;
+    padding-left: 200px;
+  }
+  
+  .aboutme img{
+    width: 210px;
+    height: auto;
+    margin-top: 200px;
+    border-radius: 400px;
+  }
+
+  .aboutme h1{
+    font-size: 25px;
+    font-style: oblique;
+    padding-top: 40px;
+    color:#233A4E
+  }
+  
+  .aboutme p{
+    font-size: 15px;
+    padding-bottom: 50px;
+    color:#233A4E
+  }
+  
+  .projects{
+    text-align: right;
+    padding-right: 100px;
+}
+
+  .projects{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: right;
+  justify-content: right;
+  margin-bottom: 0px;
+  padding-top: 450px;
+
+
+}
+
+  .projects-cards1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: right;
+    margin-top: -700px;
+    margin-right: 25px;
+  }
+
+  .projects-cards2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: right;
+    margin-top: -700px;
+    margin-right: 25px;
+  }
+
+
+  .card{
+    width: 250px;
+    height: 305px;
+    background: #384857;
+    margin: 100px;
+    margin-bottom: -70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+    color: #fff;
+    font-size: smaller;
+  }
+
+  .card:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    translate: 0 -20px;
+  }
+
+  .card h1{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .card p{
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+
+  .card img{
+    width: 110%;
+    height:130px;
+    object-fit: cover;
+  }
+
+  .card a{
+    width: 100px;
+    height: 30px;
+    background: #ff4b1f;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
